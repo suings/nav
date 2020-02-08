@@ -26,18 +26,18 @@ export default class Add extends React.Component {
             <div>
                 <div>
                     <p>名称</p>
-                    <input type="text" id="inputName" />
+                    <input type="text" id="inputName" placeholder="名称" />
                 </div>
 
                 <hr />
                 <div>
                     <p>网址</p>
-                    <input type="text" id="inputLink" />
+                    <input type="text" id="inputLink" placeholder="http(s)://" />
                 </div>
                 <hr />
                 <div>
                     <p>图片</p>
-                    <input type="text" id="inputImgLink" />
+                    <input type="text" id="inputImgLink" placeholder="http(s)://" />
                 </div>
             </div>
             <button onClick={this.handleClick}>添加</button>
