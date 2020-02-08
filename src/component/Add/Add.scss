@@ -1,0 +1,42 @@
+.addPage{
+    margin: 20px;
+
+    >div{
+        border: solid 1px;
+        border-radius: 8px; 
+        border-color: #d0d1d1;
+        padding: 5px 20px;
+        >div{
+            display: flex;
+            // flex-direction: row;
+            align-self: baseline;
+
+            >p{
+                color: #808080;
+                margin: 10px 20px 10px 0;
+            }
+            >input{
+                flex: 1;
+                border: none;
+                outline: none;
+            }
+        }
+        hr{
+            margin: 2px;
+            border: none;
+            border-bottom: solid 1px;
+            border-color: #d0d1d1;
+        }
+    }
+    button{
+        margin: 20px 0;
+        display: block;
+        width: calc(100%);
+        border: solid 0px;
+        border-radius: 6px;
+
+        color: white;
+        background-color: #4285f4;
+        height:42px;
+    }
+}
