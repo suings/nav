@@ -103,12 +103,6 @@ class Cards extends React.Component {
                     />
                 ))}
 
-                <a className="card" href="/#/add" style={{ visibility: this.state.editMode ? "hidden" : "initial" }}
-                >
-                    <img alt="添加" src="/加号.png" />
-                    <p>添加</p>
-                </a>
-
                 <div className="actionbar">
                     <Button size="small" onClick={this.handleCancel}>取消</Button>
                     编辑
