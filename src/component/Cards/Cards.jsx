@@ -26,8 +26,7 @@ class Card extends React.Component {
                 if (this.props.editMode) {
                     console.log("TODO: 进入单个编辑模式")
                 } else {
-                    // window.location.href = this.props.link
-                    console.log("TODO: 解除该注释")
+                    window.location.href = this.props.link
                 }
             }}
         >
